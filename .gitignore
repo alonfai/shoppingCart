@@ -1,0 +1,13 @@
+node_modules
+.vscode
+*.log
+*.pid
+*.seed
+.DS_Store
+lib
+coverage
+build
+dist
+logs
+pids
+.nyc_output

@@ -1,0 +1,6 @@
+export const ADD_ITEM = 'ADD_ITEM'
+export const REMOVE_ITEM = 'REMOVE_ITEM'
+export const UPDATE_QUANTITY = 'UPDATE_QUANTITY'
+export const ADD_PROMO_CODE = 'ADD_PROMO_CODE'
+export const REMOVE_PROMO_CODE = 'REMOVE_PROMO_CODE'
+export const RESET = 'RESET'

@@ -1,0 +1,28 @@
+{
+  "name": "Shopping-Cart",
+  "author": "Alon Faingertz",
+  "version": "1.0.0",
+  "description": "Sample Shopping Cart Demo",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js --exec babel-node --ignore src/**/*.spec.js",
+    "build": "babel src -d build",
+    "test": "cross-env NODE_ENV=test mocha 'src/**/*.spec.js' --recursive --compilers js:babel-register",
+    "lint": "eslint src test; exit 0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "chai": "^4.0.2",
+    "cross-env": "^5.0.1",
+    "eslint": "^4.2.0",
+    "eslint-plugin-babel": "^4.1.1",
+    "mocha": "^3.4.2",
+    "nodemon": "^1.11.0",
+    "sinon": "^2.3.7"
+  },
+  "main": "index.js"
+}
